@@ -199,5 +199,6 @@ TEST(Shagov_Maksim_Omp, Test_50_on_50_Random_Matrix_Mult) {
     Matrix C_block = parallelBlockMatrixMultiplication(A, B, size * size);
     double t4 = omp_get_wtime();
     std::cout << "Seq: " << t4 - t3 << std::endl;
+    std::cout << (t4 - t3) / (t2 - t1);
     ASSERT_TRUE(isEqualMatrix(C, C_block));
 }
