@@ -25,7 +25,7 @@ TEST(Deikstra_Algorithm, test1) {
 TEST(Deikstra_Algorithm, test2) {
     int size = 12;
     int start = 2;
-    int end = 12;
+    int end = 11;
     double t1, t2;
     std::vector<int> graph = getGraph(size);
     t1 = omp_get_wtime();
