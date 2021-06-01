@@ -1,4 +1,5 @@
 // Copyright 2021 Skripal Andrey
+
 #include <gtest/gtest.h>
 #include <omp.h>
 #include <vector>
