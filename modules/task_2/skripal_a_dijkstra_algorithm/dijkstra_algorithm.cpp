@@ -1,4 +1,5 @@
 // Copyright 2021 Skripal Andrey
+
 #include "../../../modules/task_2/skripal_a_dijkstra_algorithm/dijkstra_algorithm.h"
 #include <omp.h>
 #include <ctime>
